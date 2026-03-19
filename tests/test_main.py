@@ -46,6 +46,5 @@ def test_execucao_completa_da_main(capsys):
     assert "Transações canceladas:" in saida
 
     # Validação lógica baseada nos dados estáticos da main:
-    # (Opcional) Você pode verificar se os números batem com a lógica do seu Service
-    assert "Transações efetivadas: 6" in saida # Exemplo, ajuste conforme seu service
-    assert "Transações canceladas: 2" in saida  # Exemplo, ajuste conforme seu service
+    assert "Transações efetivadas: 6" in saida
+    assert "Transações canceladas: 2" in saida
