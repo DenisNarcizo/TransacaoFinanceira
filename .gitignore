@@ -1,0 +1,31 @@
+# Python temporários
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição / Pacotes
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+
+# Ambientes Virtuais
+venv/
+ENV/
+
+# Testes e Cobertura
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
